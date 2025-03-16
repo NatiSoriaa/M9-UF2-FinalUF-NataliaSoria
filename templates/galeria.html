@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body class="svg">
+    <header class="menu p-3">
+        <h2><a href="./index.html">Inicio</a></h2>
+        <div class="listado">
+            <ul>
+                <li><a href="./galeria.html">Galeria</a></li>
+                <li><a href="./audio.html">Audio</a></li>
+                <li><a href="./video.html">Video</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="section section-1">
+
+                <div class="titulos">
+                    <h3>SVG</h3>
+                </div>
+                
+                <div class="slide container-svg">
+            
+                    <div class="svg-casa">
+                        <svg version="1.1" baseProfile="full" width="300" height="280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="80%" height="70%" fill="rgb(125, 211, 254)" />
+                            <rect x="0" y="150" width="80%" height="20%" fill="rgb(153, 255, 146)" />
+                            <polygon points="180,70  60,70  120,15" fill="rgb(150, 97, 54)" />
+                            <rect x="60" y="70" width="120" height="100" fill="rgb(255, 195, 146)" />
+                            <circle cx="30" cy="30" r="15" fill="rgb(255, 245, 59)" />
+                            <rect x="70" y="80" width="25" height="25" fill="white" />
+                            <rect x="145" y="80" width="25" height="25" fill="white" />
+                            <rect x="105" y="120" width="30" height="50" fill="rgb(91, 63, 40)" />
+                            <circle cx="110" cy="150" r="3" fill="rgb(255, 245, 59)" />
+                        </svg>
+                    </div>
+            
+                    <div class="svg-coche">
+                        <svg version="1.1" baseProfile="full" width="300" height="280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="80%" height="75%" fill="rgb(197, 197, 197)" />
+                            <rect x="60" y="120" width="120" height="40" fill="red" />z
+                            <rect x="80" y="90" width="80" height="50" fill="red" />
+                            <rect x="90" y="98" width="30" height="18" fill="rgb(103, 154, 196)" />
+                            <rect x="125" y="98" width="25" height="18" fill="rgb(103, 154, 196)" />
+                            <rect x="60" y="128" width="10" height="12" fill="yellow" />
+                            <rect x="170" y="128" width="10" height="12" fill="yellow" />
+                            <circle cx="85" cy="160" r="15" fill="black" />
+                            <circle cx="155" cy="160" r="15" fill="black" />
+                            <circle cx="155" cy="160" r="8" fill="rgb(90, 88, 88)" />
+                            <circle cx="85" cy="160" r="8" fill="rgb(90, 88, 88)" />
+                        </svg>
+                    </div>
+                
+                    <div class="svg-robot">
+                        <svg version="1.1" baseProfile="full" width="300" height="280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="80%" height="80%" fill="rgb(236, 236, 236)" />
+                            <rect x="70" y="40" width="90" height="50" fill="grey"  rx="10" ry="10"/>
+                            <rect x="80" y="100" width="70" height="90" fill="grey" />
+                            <rect x="150" y="115" width="30" height="10" fill="grey" />
+                            <rect x="50" y="115" width="30" height="10" fill="grey" />
+                            <circle cx="100" cy="60" r="10" fill="rgb(90, 255, 84)" />
+                            <circle cx="130" cy="60" r="10" fill="rgb(90, 255, 84)" />
+                            <circle cx="100" cy="60" r="5" fill="white" />
+                            <circle cx="130" cy="60" r="5" fill="white" />
+                            <circle cx="115" cy="20" r="5" fill="red" />
+                            <line x1="115" y1="25" x2="115" y2="40" stroke="grey" stroke-width="2" />
+                            <circle cx="115" cy="120" r="5" fill="red" />
+                            <circle cx="115" cy="140" r="5" fill="green" />
+                            <circle cx="115" cy="160" r="5" fill="blue" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="diferencias">
+                    <ul>
+                        <li>Completamente escalable sin perdida de calidad.</li>
+                        <li>Se basa en ecuaciones matematicas que describen formas geometricas.</li>
+                        <li>Las ampliaciones a la imagen no generan pixelacion.</li>
+                        <li>Ideal para graficos planos como logotipos, ilustraciones y graficos simples.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="section section-2">
+
+                <div class="titulos">
+                    <h3>JPG</h3>
+                </div>
+
+                <div class="slide container-jpg">
+                    <div class="jpg-casa">
+                        <img src="../static/img/casa.jpg" alt="casa">
+                    </div>
+
+                    <div class="jpg-coche">
+                        <img src="../static/img/coche.jpg" alt="coche">
+                    </div>
+
+                    <div class="jpg-robot">
+                        <img src="../static/img/robot.jpg" alt="robot">
+                    </div>
+                </div>
+
+                <div class="diferencias">
+                    <ul>
+                        <li>Depende del manejo en pixeles.</li>
+                        <li>Al ampliarse, pierde nitidez y muestra pixelacion, ya que la informacion esta fija en pixeles.</li>
+                        <li>Adecuado para fotografias y imagenes con detalles complejos y transiciones suaves de color.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <button class="arrow arrow-left" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="arrow arrow-right" onclick="moveSlide(1)">&#10095;</button>
+        
+    </div>
+
+    
+    <footer class="text-center p-3">
+        <p>By Natalia Soria</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" class="me-3"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/" class="me-3"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.youtube.com/" class="me-3"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.linkedin.com/" class="me-3"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </footer>
+
+
+    <script>
+        let currentIndex = 0;
+
+        function moveSlide(direction) {
+            const slides = document.querySelector('.slides');
+            currentIndex = (currentIndex + direction) % 2;
+            if (currentIndex < 0) currentIndex = 1; 
+            slides.style.transform = `translateX(-${currentIndex * 50}%)`; 
+        }
+
+    </script>
+  
+</body>
+
+</html>
